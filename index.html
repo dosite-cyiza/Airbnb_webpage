@@ -5,28 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Airbnb</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   </head>
   <body class="mx-auto">
-    <header class="flex justify-around items-center pt-6">
-      <div>
+    <header class="flex justify-between px-10 items-center pt-6">
+      <div class="hidden md:inline">
         <img src="/Airbnb-images/headerLogo.png" alt="image" class="w-30" />
       </div>
 
-      <div class="flex justify-center items-center gap-3">
-        <div class="flex items-center justify-center border-b-4">
+      <div class="flex items-center  max-sm:w-full sm:w-full [&>*]:mx-auto  max-sm:[&>*]:text-sm justify-center">
+        <div class="md:flex blockitems-center justify-center border-b-4">
           <img
             src="/Airbnb-images/home.png"
             alt="notification-image"
-            class="w-20"
+            class="w-10 md:w-20"
           />
           <a href="#" class="font-bold">Homes</a>
         </div>
 
-        <div class="flex items-center justify-center relative">
+        <div class="items-center justify-center relative md:flex block">
           <img
             src="/Airbnb-images/experience.png"
             alt="notification-image"
-            class="w-20"
+            class="w-10 md:w-20"
           />
           <a href="#" class="">Experience</a>
            <span
@@ -35,11 +36,11 @@
   </span>
           
         </div>
-        <div class="flex items-center justify-center relative">
+        <div class="md:flex block items-center justify-center relative">
           <img
             src="/Airbnb-images/notification.png"
             alt="notification-image"
-            class="w-20"
+            class="w-10 md:w-20"
           />
           <a href="#" class="">services</a>
            <span
@@ -49,8 +50,8 @@
         </div>
       </div>
 
-      <div class="flex justify-center items-center gap-10">
-        <a href="#" class="font-bold">Become a host</a>
+      <div class="md:flex hidden justify-center items-center gap-10">
+        <a href="#" class="font-medium">Become a host</a>
         <img
           src="/Airbnb-images/globalImage.svg"
           alt="Global image"
@@ -59,8 +60,8 @@
         <img src="/Airbnb-images/menu.svg" alt="Menu image" class="w-5" />
       </div>
     </header>
-    <section class="flex justify-around items-center">
-      <div class="m-10 w-auto px-15 py-1  shadow-xl shadow-gray-200  rounded-full flex justify-between items-center gap-20">
+    <section class="md:flex md:justify-around md:items-center hidden mx-auto">
+      <div class="m-10 w-auto px-5 py-1  shadow-xl shadow-gray-200 rounded-full flex justify-between items-center gap-20">
         <div class="rounded-full p-3 ">
           <p> 
             <b>Where</b><br>
@@ -93,7 +94,7 @@
 
     <section class="p-10">
      <div class="flex items-center">
-       <a href="" class="font-bold text-3xl"> Popular homes in Nairobi </a> 
+       <a href="" class="font-bold text-xl"> Popular homes in Nairobi </a> 
        <img src="/Airbnb-images/greater.svg" alt="" class="w-5 mt-2"> 
       </div>
       <div class="flex justify-around items-center gap-2 overflow-auto [scrollbar-width:none] [-ms-overflow-style:none] ">
@@ -298,7 +299,7 @@
     </section>
     <section class="p-10">
      <div class="flex items-center">
-       <a href="" class="font-bold text-3xl"> Available next month in paris </a> 
+       <a href="" class="font-bold text-xl"> Available next month in paris </a> 
        <img src="/Airbnb-images/greater.svg" alt="" class="w-5 mt-2"> 
       </div>
       <div class="flex justify-around items-center gap-2 overflow-auto [scrollbar-width:none] [-ms-overflow-style:none] ">
@@ -503,7 +504,7 @@
     </section>
 <section class="p-10">
      <div class="flex items-center">
-       <a href="" class="font-bold text-3xl"> Stay in London</a> 
+       <a href="" class="font-bold text-xl"> Stay in London</a> 
        <img src="/Airbnb-images/greater.svg" alt="" class="w-5 mt-2"> 
       </div>
       <div class="flex justify-around items-center gap-2 overflow-auto [scrollbar-width:none] [-ms-overflow-style:none] ">
@@ -708,7 +709,7 @@
     </section>
 <section class="p-10">
      <div class="flex items-center">
-       <a href="" class="font-bold text-3xl"> Available next month in AI-Riyad </a> 
+       <a href="" class="font-bold text-xl"> Available next month in AI-Riyad </a> 
        <img src="/Airbnb-images/greater.svg" alt="" class="w-5 mt-2"> 
       </div>
       <div class="flex justify-around items-center gap-2 overflow-auto [scrollbar-width:none] [-ms-overflow-style:none] ">
@@ -913,7 +914,7 @@
     </section>
 <section class="p-10">
      <div class="flex items-center">
-       <a href="" class="font-bold text-3xl"> Home in Rome </a> 
+       <a href="" class="font-bold text-xl"> Home in Rome </a> 
        <img src="/Airbnb-images/greater.svg" alt="" class="w-5 mt-2"> 
       </div>
       <div class="flex justify-around items-center gap-2 overflow-auto [scrollbar-width:none] [-ms-overflow-style:none] ">
@@ -1118,7 +1119,7 @@
     </section>
 <section class="p-10">
      <div class="flex items-center">
-       <a href="" class="font-bold text-3xl"> Available next month in Barcelona </a> 
+       <a href="" class="font-bold text-xl"> Available next month in Barcelona </a> 
        <img src="/Airbnb-images/greater.svg" alt="" class="w-5 mt-2"> 
       </div>
       <div class="flex justify-around items-center gap-2 overflow-auto [scrollbar-width:none] [-ms-overflow-style:none] ">
@@ -1323,7 +1324,7 @@
     </section>
 <section class="p-10">
      <div class="flex items-center">
-       <a href="" class="font-bold text-3xl"> Places to stay in milan </a> 
+       <a href="" class="font-bold text-xl"> Places to stay in milan </a> 
        <img src="/Airbnb-images/greater.svg" alt="" class="w-5 mt-2"> 
       </div>
       <div class="flex justify-around items-center gap-2 overflow-auto [scrollbar-width:none] [-ms-overflow-style:none] ">
@@ -1528,7 +1529,7 @@
     </section>
 <section class="p-10">
      <div class="flex items-center">
-       <a href="" class="font-bold text-3xl"> Checkout homes in madrid</a> 
+       <a href="" class="font-bold text-xl"> Checkout homes in madrid</a> 
        <img src="/Airbnb-images/greater.svg" alt="" class="w-5 mt-2"> 
       </div>
       <div class="flex justify-around items-center gap-2 overflow-auto [scrollbar-width:none] [-ms-overflow-style:none] ">
@@ -1733,7 +1734,7 @@
     </section>
 <section class="p-10">
      <div class="flex items-center">
-       <a href="" class="font-bold text-3xl"> Popular homes in Budapest</a> 
+       <a href="" class="font-bold text-xl"> Popular homes in Budapest</a> 
        <img src="/Airbnb-images/greater.svg" alt="" class="w-5 mt-2"> 
       </div>
       <div class="flex justify-around items-center gap-2 overflow-auto [scrollbar-width:none] [-ms-overflow-style:none] ">
@@ -1936,38 +1937,38 @@
      </div> 
             
     </section>
-<footer class="p-10">
-  <h2 class="text-3xl font-medium">Inspiration for future getaways</h2>
+<footer class="py-10 px-10">
+  <h2 class="text-xl font-medium">Inspiration for future getaways</h2>
   <div class=" flex py-6 gap-6">
     <button><a href="">Travel trips and & insipiration</a></button>
     <a href="">Airbnb-friendly apartements</a>
   </div>
   <hr>
-  <div class="grid grid-cols-4 p-10">
+  <div class="grid grid-cols-4 max-sm:p-1 max-sm:grid-cols-1 max-sm:[&>*]:text-sm">
     <div class="my-4">
-      <h3 class="font-medium text-2xl">Family travel hub</h3>
+      <h3 class="font-medium text-md">Family travel hub</h3>
       <p>Tips and insipiration</p>
     </div>
      <div class="my-4">
-      <h3 class="font-medium text-2xl">Family budget travel</h3>
+      <h3 class="font-medium text-md">Family budget travel</h3>
       <p>get there for less</p>
     </div>
     <div class="my-4">
-      <h3 class="font-medium text-2xl">Travel Europe on a budget.....</h3>
+      <h3 class="font-medium text-md">Travel Europe on a budget.....</h3>
       <p>Making it special without making</p>
     </div>
    <div class="my-4">
-      <h3 class="font-medium text-2xl">Outdoor Adventure</h3>
+      <h3 class="font-medium text-md">Outdoor Adventure</h3>
       <p>Explore nature with family</p>
     </div>
      <div class="my-4">
-      <h3 class="font-medium text-2xl">Kid friendly state parks</h3>
+      <h3 class="font-medium text-md">Kid friendly state parks</h3>
       <p>Checkout these family-friend</p>
     </div>
     
   </div>
 
-  <div class="grid grid-cols-3 items-start  p-10">
+  <div class="grid grid-cols-3 items-start max-sm:grid-cols-1 space-y-10 py-10">
     <div class="space-y-4">
       <h3 class="font-medium">Support</h3>
       <div class="space-y-3">
@@ -2009,14 +2010,14 @@
 
   </div>
   <hr class="opacity-0">
- <div class="flex tracking-wider pt-7 justify-between">
-  <div class="flex gap-3">
+ <div class="grid md:grid-cols-2 tracking-wider pt-7 md:flex justify-between items-center space-y-3">
+  <div class="max-sm:grid flex items-center max-sm:grid-cols-1  max-sm:space-y-3 gap-3">
   <p>&copy;2025, Inc.</p>
   <a href="">. Terms</a>
   <a href="">.Sitemap</a>
   <a href="">.Privancy</a>
   <a href="">.Your privancyChoices</a>
-  <img src="/Airbnb-images/bluet.svg" alt="" class="w-8">
+  <img src="/Airbnb-images/bluet.svg" alt="" class="w-8 h-5">
   </div>
   <div class="flex gap-4  items-center">
     <img src="/Airbnb-images/globalImage.svg" alt="" class="w-5">
@@ -2031,5 +2032,17 @@
  </div>
 
 </footer>
+<div class="hidden max-sm:flex fixed bottom-0 right-0 left-0 h-10 bg-white px-10 py-2 [&>*]:mx-auto">
+  <div class="text-[rgb(255,56,92)]">
+    <i class="fa fa-search" aria-hidden="true"></i>
+  </div>
+  <div>
+    <i class="fa fa-heart" aria-hidden="true"></i>
+  </div>
+  <div>
+    <i class="fa fa-user" aria-hidden="true"></i>
+  </div>
+
+</div>
   </body>
 </html>
